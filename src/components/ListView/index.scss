@@ -1,0 +1,28 @@
+.foot-text{
+  color: rgba(43, 44, 45, 0.45);
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 60px;
+
+  .text{
+    display: inline-block;
+    text-align: left;
+  }
+}
+.refresh-body-view{
+  margin-top: -60PX;
+  .refresh-icon-view{
+    background-color: #fafafa;
+    height: 60PX;
+    overflow: hidden;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    .refresh-icon{
+      margin-top: 10PX;
+      height: 60PX;
+      width: 270PX;
+    }
+  }
+}

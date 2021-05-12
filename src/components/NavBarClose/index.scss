@@ -1,0 +1,30 @@
+.contain-nav-bar {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  align-items: center;
+
+  .left-icon {
+    height: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  .img-back {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .title-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 1);
+  }
+}

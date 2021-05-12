@@ -1,0 +1,17 @@
+
+export const DEBUG = process.env.DEBUG;
+
+export const BASE_API = process.env.CUSTOM_ENV;
+
+export const HTTP_STATUS = {
+  SUCCESS: 200,
+  CLIENT_ERROR: 400,
+  AUTHENTICATE: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  TOO_LARGE: 413,
+  SERVER_ERROR: 500,
+  BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
+  GATEWAY_TIMEOUT: 504,
+};
